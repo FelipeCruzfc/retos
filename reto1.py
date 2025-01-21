@@ -1,4 +1,4 @@
-#
+
 
 n = int(input("¿Cuántos números quieres ingresar? "))
 
@@ -9,9 +9,9 @@ for i in range(n):
 S = 6
 nueva_lista = []
 
-# Recorrer cada número en la lista
+
 for numero in Lista_1:
-    # Convertir el número a una cadena para poder revisar cada dígito
+   
     numero_str = str(numero)
 
     nuevo_numero=""

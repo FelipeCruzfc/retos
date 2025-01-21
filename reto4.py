@@ -3,6 +3,7 @@ def minimo_numero_no_formable():
     
 
     monedas=[]
+    
     for moneda in range(n):
         valorMoneda=int(input(f"Que valor tiene la moneda? {moneda+1}:  "))
         monedas.append(valorMoneda)
@@ -19,4 +20,4 @@ def minimo_numero_no_formable():
     return cambio_actual+1
 
 
-print("valor minimo que NO se puede formar", minimo_numero_no_formable())
+print("Valor minimo que NO se puede formar es: ", minimo_numero_no_formable())

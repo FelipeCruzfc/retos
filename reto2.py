@@ -14,7 +14,7 @@ def numero_cuadrado():
       if cuadrados <=limite:
          lista_numeros_cuadrados.append(cuadrados)
 
-   #return lista_numeros_cuadrados
+  
 
    resultado_lista =[]
    for num in lista_numeros_cuadrados:
